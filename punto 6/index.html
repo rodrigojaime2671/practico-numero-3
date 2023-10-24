@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li onclick="cargarNombre(this)">manzana</li>
+        <li onclick="cargarNombre(this)">pera</li>
+        <li onclick="cargarNombre(this)">ajo</li>
+    </ul>
+
+    <input type="text" id="nombreProducto" placeholder="nombre del producto">
+
+    <button onclick="agregarProducto()">agregar</button>
+
+    <div id="resultado">
+        <p>Productos seleccionados;</p>
+        <ul></ul>
+    </div>
+</body>
+<script src="./var.js"></script>
+</html>
